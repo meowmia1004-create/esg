@@ -1,0 +1,38 @@
+=== ESG LLM Wiki 結構檢查 ===
+[PASS] AGENTS.md 存在
+[PASS] index.md 存在
+[PASS] log.md 存在
+[PASS] deck.html 存在
+[PASS] Ingest workflow 存在
+[PASS] Lint workflow 存在
+[PASS] 知識卡片數量：5（至少 5）
+[PASS] 01-esg-basics.md 有標題
+[PASS] 02-telecom-esg.md 有標題
+[PASS] 03-chunghwa-recycling.md 有標題
+[PASS] 04-brand-identification.md 有標題
+[PASS] 05-csr-and-identification.md 有標題
+[PASS] index.md 連結有效：cards/01-esg-basics.md
+[PASS] index.md 連結有效：cards/02-telecom-esg.md
+[PASS] index.md 連結有效：cards/04-brand-identification.md
+[PASS] index.md 連結有效：cards/05-csr-and-identification.md
+[PASS] index.md 連結有效：cards/03-chunghwa-recycling.md
+[PASS] index.md 連結有效：sources.md
+[PASS] index.md 連結有效：outline.md
+[PASS] index.md 連結有效：log.md
+[PASS] index.md 連結有效：AGENTS.md
+[PASS] index.md 連結有效：.agents/workflows/ingest.md
+[PASS] index.md 連結有效：.agents/workflows/lint.md
+[PASS] sources.md 有 5 個清單項目（請人工確認至少 5 篇已實際匯入）
+
+結果：24 PASS / 0 WARN / 0 FAIL
+注意：本程式只檢查檔案結構與連結，不代表來源已在指定平台完成 ingest，也不代表內容已通過學術查證。
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.

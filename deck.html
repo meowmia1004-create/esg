@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESG 永續策略與電信消費者品牌認同</title>
+<style>
+:root{--ink:#26352d;--muted:#65746b;--paper:#f7f5ed;--green:#315b46;--sage:#dce7dc;--line:#d8dfd4;--gold:#c49a52}
+*{box-sizing:border-box}body{margin:0;background:#e9ede7;color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC",sans-serif}
+.deck{min-height:100vh;display:grid;place-items:center;padding:28px 18px 90px}
+.slide{display:none;width:min(1100px,96vw);min-height:min(650px,78vh);background:var(--paper);border:1px solid var(--line);border-radius:24px;padding:clamp(28px,5vw,68px);box-shadow:0 18px 55px #20382b18;position:relative;overflow:hidden}
+.slide.active{display:flex;flex-direction:column;justify-content:center;animation:fade .25s ease}
+@keyframes fade{from{opacity:.4;transform:translateY(8px)}to{opacity:1;transform:none}}
+.kicker{color:var(--green);font-size:.82rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+h1{font-size:clamp(2.4rem,6vw,5.2rem);line-height:1.12;margin:.4em 0;color:var(--green)}
+h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.2;color:var(--green);margin:.35em 0 .6em}
+p,li{font-size:clamp(1rem,1.7vw,1.35rem);line-height:1.75}
+.lead{font-size:clamp(1.2rem,2.1vw,1.7rem);max-width:780px;color:#4d5d53}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:18px 0}
+.card{background:#edf1e9;border:1px solid var(--line);padding:22px;border-radius:18px}
+.card b{display:block;color:var(--green);font-size:1.3rem;margin-bottom:8px}
+.callout{border-left:5px solid var(--gold);background:#f0eadb;padding:18px 22px;border-radius:8px;margin:16px 0}
+.small{font-size:.9rem;color:var(--muted)}
+.pill{display:inline-block;border:1px solid #c6d5c7;border-radius:99px;padding:6px 12px;color:var(--green);font-weight:700;margin:4px}
+.flow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:24px 0}
+.flow span{background:var(--sage);border:1px solid #c4d5c6;border-radius:12px;padding:13px 16px;font-weight:700}
+.flow em{font-style:normal;color:var(--gold);font-size:1.4rem}
+.controls{position:fixed;bottom:0;left:0;right:0;background:#f7f5edee;backdrop-filter:blur(10px);border-top:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:14px;padding:14px;z-index:5}
+button{border:0;background:var(--green);color:white;border-radius:999px;padding:11px 20px;font-size:1rem;font-weight:700;cursor:pointer}
+button:disabled{opacity:.35;cursor:not-allowed}.counter{font-variant-numeric:tabular-nums;color:var(--muted);min-width:75px;text-align:center}
+.sources{font-size:.88rem;color:var(--muted);margin-top:20px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.slide{min-height:76vh}.flow{align-items:stretch;flex-direction:column}.flow em{transform:rotate(90deg);align-self:center}}
+@media print{body{background:white}.deck{display:block;padding:0}.slide{display:flex!important;min-height:95vh;width:100%;border:0;box-shadow:none;page-break-after:always}.controls{display:none}}
+</style>
+</head>
+<body>
+<main class="deck" aria-live="polite">
+<section class="slide active">
+<div class="kicker">Teaching presentation · ESG × Telecom</div>
+<h1>ESG 永續策略<br>如何影響電信消費者的品牌認同？</h1>
+<p class="lead">從 ESG 三大構面出發，透過台灣電信產業與中華電信手機回收案例，理解企業永續作為與消費者認同之間可能存在的關係。</p>
+<div><span class="pill">環境 E</span><span class="pill">社會 S</span><span class="pill">公司治理 G</span><span class="pill">品牌認同</span></div>
+<p class="sources">知識來源：S1–S6。此簡報為教學整理，非實證研究結論。</p>
+</section>
+<section class="slide">
+<div class="kicker">01 · Basic concept</div><h2>ESG 是什麼？</h2>
+<p>ESG 是企業永續管理常見的三個面向，協助我們從環境、社會與公司治理角度，理解企業如何面對長期責任。</p>
+<div class="grid">
+<div class="card"><b>E｜Environmental</b><p>能源使用、溫室氣體排放、資源效率、廢棄物管理。</p></div>
+<div class="card"><b>S｜Social</b><p>員工權益、消費者權益、數位包容、社區參與。</p></div>
+<div class="card"><b>G｜Governance</b><p>董事會運作、誠信經營、風險管理、資訊透明。</p></div>
+</div><p class="sources">來源：S1（中華電信永續報告書專區）。</p>
+</section>
+<section class="slide">
+<div class="kicker">02 · Industry context</div><h2>為什麼電信業也需要 ESG？</h2>
+<p>電信服務仰賴基地台、網路設備、機房與供應鏈，也處理大量消費者資料。因此，永續議題不只有節能，也包含服務可近性與治理責任。</p>
+<div class="grid">
+<div class="card"><b>網路與設備</b><p>能源效率、設備生命週期與電子廢棄物。</p></div>
+<div class="card"><b>消費者與社會</b><p>服務品質、數位落差、消費者權益與個資保護。</p></div>
+<div class="card"><b>企業治理</b><p>資安風險、法令遵循、供應鏈及資訊揭露。</p></div>
+</div><p class="sources">來源：S1。具體績效數字應回到指定年度報告書核對。</p>
+</section>
+<section class="slide">
+<div class="kicker">03 · Environmental</div><h2>E：環境永續</h2>
+<p>環境面可從能源效率、資源使用、廢棄物管理與循環利用理解。手機回收是電信業者與消費者接觸循環經濟的具體場景。</p>
+<div class="callout"><b>思考：</b>舊手機如果長期閒置或直接丟棄，可能造成資源浪費；回收與再利用提供另一種處理方式。</div>
+<p class="sources">來源：S1、S2、S3。</p>
+</section>
+<section class="slide">
+<div class="kicker">04 · Social</div><h2>S：社會責任</h2>
+<p>社會面關注企業如何對待員工、消費者與社區。對電信業而言，可從通訊服務可近性、數位包容、消費者權益及個資保護等面向討論。</p>
+<div class="grid">
+<div class="card"><b>數位包容</b><p>讓不同地區與族群能接觸數位服務。</p></div>
+<div class="card"><b>消費者權益</b><p>重視服務資訊、交易與申訴權益。</p></div>
+<div class="card"><b>資料保護</b><p>妥善處理個人資料與資安風險。</p></div>
+</div><p class="sources">來源：S1。此頁為議題分類，非個別績效宣稱。</p>
+</section>
+<section class="slide">
+<div class="kicker">05 · Governance</div><h2>G：公司治理</h2>
+<p>公司治理關注企業如何決策、監督及管理風險。治理制度讓企業的永續承諾有管理機制與資訊揭露作為支持。</p>
+<div class="flow"><span>董事會與監督</span><em>→</em><span>風險管理</span><em>→</em><span>法令遵循</span><em>→</em><span>資訊揭露</span></div>
+<p class="sources">來源：S1。實際制度與成果須依報告書內容說明。</p>
+</section>
+<section class="slide">
+<div class="kicker">06 · Case study</div><h2>中華電信：手機回收與循環經濟</h2>
+<p>中華電信官方資料介紹多元廢手機回收方式，包括線上回收、實體門市回收、EPBOX 手機回收機器人、舊換新優惠及手機回收月活動。</p>
+<div class="grid">
+<div class="card"><b>線上與門市</b><p>提供不同管道申請或交付舊手機。</p></div>
+<div class="card"><b>EPBOX</b><p>官方服務頁介紹自助式手機估價設備。</p></div>
+<div class="card"><b>認證二手機</b><p>透過檢測與整新，讓部分手機再次進入使用情境。</p></div>
+</div>
+<div class="callout">重要區分：這些資料證明企業提供相關服務，不等於已證明消費者因此更認同品牌。</div>
+<p class="sources">來源：S2、S3（中華電信官方網頁）。</p>
+</section>
+<section class="slide">
+<div class="kicker">07 · Theory</div><h2>什麼是消費者－企業認同？</h2>
+<p>Bhattacharya 與 Sen（2003）以社會認同及組織認同觀點說明：當消費者感覺企業的身分或價值與自己的自我概念有所連結時，可能與企業建立較緊密且有意義的關係。</p>
+<div class="callout">簡單來說：消費者不只購買產品，也可能因為認同企業代表的價值，而願意與企業建立關係。</div>
+<p class="small">本簡報使用「品牌認同」作為教學用語；正式研究仍須界定品牌認同與消費者－企業認同的差異。</p>
+<p class="sources">來源：S4。</p>
+</section>
+<section class="slide">
+<div class="kicker">08 · Research connection</div><h2>ESG 與品牌認同：可能的關係</h2>
+<p>企業永續作為可能影響消費者對企業的知覺與評價，進而與消費者－企業認同產生關聯。學術研究提供 CSR 與消費者認同之間的理論及實證線索。</p>
+<div class="flow"><span>企業 ESG 作為</span><em>→</em><span>消費者 ESG 知覺</span><em>→</em><span>品牌／企業認同</span></div>
+<p>但消費者是否真的感受到企業的永續作為、是否相信其動機，以及是否因此認同品牌，都需要透過消費者資料進一步檢驗。</p>
+<p class="sources">來源：S4、S5、S6。不同研究的國家、產業與樣本不可直接等同台灣電信消費者。</p>
+</section>
+<section class="slide">
+<div class="kicker">09 · Takeaways</div><h2>研究架構與重點總結</h2>
+<p>本專題可進一步提出研究問題：消費者對電信業者 ESG 永續作為的知覺，是否與其品牌認同具有關聯？</p>
+<div class="grid">
+<div class="card"><b>企業層次</b><p>企業實際推動哪些 ESG 措施？</p></div>
+<div class="card"><b>消費者層次</b><p>消費者是否知道、理解並相信這些措施？</p></div>
+<div class="card"><b>心理層次</b><p>消費者是否因此產生品牌／企業認同？</p></div>
+</div>
+<div class="callout"><b>結論：</b>ESG 措施是企業行動；品牌認同是消費者心理反應。兩者之間的關係值得研究，但不能未經驗證就視為因果。</div>
+<p class="sources">參考資料：S1–S6，完整網址請見專案 `sources.md`。</p>
+</section>
+</main>
+<nav class="controls" aria-label="簡報導覽">
+<button id="prev" type="button">← 上一頁</button>
+<span class="counter" id="counter">1 / 10</span>
+<button id="next" type="button">下一頁 →</button>
+<button id="full" type="button">全螢幕</button>
+</nav>
+<script>
+const slides=[...document.querySelectorAll('.slide')];let index=0;
+const counter=document.getElementById('counter'),prev=document.getElementById('prev'),next=document.getElementById('next');
+function show(i){index=Math.max(0,Math.min(slides.length-1,i));slides.forEach((s,n)=>s.classList.toggle('active',n===index));counter.textContent=`${index+1} / ${slides.length}`;prev.disabled=index===0;next.disabled=index===slides.length-1;}
+prev.addEventListener('click',()=>show(index-1));next.addEventListener('click',()=>show(index+1));
+document.getElementById('full').addEventListener('click',()=>{if(!document.fullscreenElement){document.documentElement.requestFullscreen?.()}else{document.exitFullscreen?.()}});
+document.addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){e.preventDefault();show(index+1)}if(['ArrowLeft','PageUp'].includes(e.key)){e.preventDefault();show(index-1)}});
+show(0);
+</script>
+</body></html>
